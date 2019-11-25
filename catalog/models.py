@@ -63,12 +63,12 @@ class BookInstance(models.Model):
         ordering = ['due_back']
         permissions = (("can_mark_returned", "Set book as returned"), ("can_create_book", "Create new book"), ("can_update_book", "Update book details"), ("can_delete_book", "Delete book"),)
 
+
     @property
     def is_overdue(self):
         if self.due_back and date.today() > self.due_back:
             return True
         return False
-
 
 class Author(models.Model):
     first_name = models.CharField(max_length=100)
@@ -96,3 +96,4 @@ class Profile(models.Model):
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name}'
+

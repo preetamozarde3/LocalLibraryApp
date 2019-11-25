@@ -84,3 +84,4 @@ admin.site.register(Genre)
 admin.site.register(BookInstance, BookInstanceAdmin)
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
+

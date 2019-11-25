@@ -217,7 +217,6 @@ def renew_book_librarian(request, pk):
 
     return render(request, 'catalog/book_renew_librarian.html', context)
 
-
 def return_book(request, pk):
     book_instance = get_object_or_404(BookInstance, pk=pk)
     book_instance.status = STATUS_AVAILABLE
@@ -299,5 +298,3 @@ class AuthorSearchListView(AuthorListView):
             )
 
         return result
-
-
