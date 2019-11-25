@@ -1,0 +1,59 @@
+{% extends 'catalog/base_generic.html' %}
+
+{% block content %}
+    <div class="panel panel-primary panel-transparent" style="margin-top: 25px; width: 80%; background: none; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);">
+            <div class="panel-heading">
+                <div class="panel-title text-center"><label style="font-family: 'Times New Roman';">Create Account</label></div>
+            </div>
+            <div class="panel-body">
+                <form action="{% url 'customer_signup' %}" method="POST" class="form-horizontal" enctype="multipart/form-data">
+                     {% csrf_token %}
+
+                     <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="customer_username" type="text" class="form-control" name="customer_username" value="" placeholder="Username" style="background: none;">
+                     </div>
+
+                     <div class="input-group" style="margin-top: 10px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input id="customer_password" type="password" class="form-control" name="customer_password" placeholder="Password" style="background: none;">
+                     </div>
+
+                    <div class="input-group" style="margin-top: 10px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input id="customer_email" type="text" class="form-control" name="customer_email" placeholder="Email address" style="background: none;">
+                     </div>
+
+                    <div class="input-group" style="margin-top: 10px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                        <input id="customer_contact_number" type="text" class="form-control" name="customer_contact_number" placeholder="Phone number" minlength="10" maxlength="10" style="background: none;">
+                     </div>
+
+                    <div class="input-group" style="margin-top: 10px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+                        <input id="customer_profile_picture" type="file" class="form-control" name="customer_profile_picture" style="background: none;">
+                     </div>
+
+                   {% comment %} <div class='input-group date' id="datetimepicker12" style="margin-top: 10px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                        <input id="dob" type='date' placeholder="YYYY-MM-DD" class="form-control"  name="customer_dob" style="background: none;"/>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            $('#datetimepicker12').datetimepicker({
+                                format: 'YYYY-MM-DD' //This is the default date format Django will accept, it also disables the time in the datepicker.
+                            })
+                        });
+                    </script>{% endcomment %}
+
+                    <div class="form-group" style="margin-top: 10px;">
+                        <div class="col-sm-12 controls">
+                            <button type="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-plus-sign"></i>&nbsp;&nbsp;<label style="font-family: 'Times New Roman';"> Sign up</label></button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+    </div>
+{% endblock %}

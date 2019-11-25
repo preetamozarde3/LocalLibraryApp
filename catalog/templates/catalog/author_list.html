@@ -1,0 +1,28 @@
+{% extends "catalog/base_generic.html" %}
+
+{% block content %}
+    <div class="container" style="margin-top: 40px">
+        <div style="margin-left: 35px">
+        <form action="{% url 'search_author' %}" method="get">
+            <div class="form-group row">
+                <input type="submit" value="Search" class="btn btn-primary active col-sm-1" >
+                <div class="col-sm-5">
+                    <input type="text" name="q" class="form-control" style="background: none; font-family: 'Times New Roman'" placeholder="Search author by name i.e Marcel">
+                </div>
+            </div>
+        </form><br><br>
+        </div>
+        {% if author_list %}
+            <div class="card-group">
+                {% for author in author_list %}
+                    <div class="card col-md-4">
+                        <a href="{{author.get_absolute_url}}"><img class="card-img-top img-fluid" src="{{ author.author_profile_picture.url }}" alt="Card image cap" height="250px"></a>
+                        <div class="card-body">
+                            <a href="{{author.get_absolute_url}}"><h5 class="card-footer" style="font-family: Kefa;">{{ author.first_name }} {{ author.last_name }}</h5></a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

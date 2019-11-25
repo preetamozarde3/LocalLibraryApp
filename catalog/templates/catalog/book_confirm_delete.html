@@ -1,0 +1,14 @@
+{% extends "catalog/base_generic.html" %}
+
+{% block content %}
+    <div class="container" style="margin-top: 50px">
+        <h3 style="font-family: 'Times New Roman';">Delete Book</h3><hr><br>
+        <p style="font-family: 'Times New Roman';">Are you sure you want to delete the book: <strong>{{ book }}?</strong></p><br>
+
+        <form action="" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="Delete" class="btn btn-danger">
+            <a href="{% url 'dashboard_staff' %}"><input type="button" value="Cancel" class="btn btn-info"></a>
+        </form>
+    </div>
+{% endblock %}

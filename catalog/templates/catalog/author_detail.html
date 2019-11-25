@@ -1,0 +1,24 @@
+{% extends "catalog/base_generic.html" %}
+
+{% block content %}
+    <div class="container" style="margin-top: 50px">
+        <div class="row" style="margin-left:20px;">
+            <div class="col-sm-8">
+                <h3 style="font-family: 'Times New Roman'">Author: {{ author }} </h3>
+                <p><h4 style="font-family: 'Times New Roman'">{{author.date_of_birth}} - {% if author.date_of_death %}{{author.date_of_death}}{% endif %}</h4></p>
+            </div>
+            <div class="col-sm-4">
+                <img src="{{ author.author_profile_picture.url }}" height="250px" style="border:3px solid black;">
+            </div>
+        </div>
+        <div style="margin-left:20px;margin-top:20px">
+            <h4 style="font-family: 'Times New Roman'">Books</h4>
+            <dl>
+                {% for book in author.book_set.all %}
+                    <dt><a href="{% url 'book-detail' book.pk %}">{{book}}</a></dt>
+                    <dd>{{book.summary}}</dd><br>
+                {% endfor %}
+            </dl>
+        </div>
+    </div>
+{% endblock %}

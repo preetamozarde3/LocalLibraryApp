@@ -1,0 +1,65 @@
+{% extends "catalog/base_generic.html" %}
+
+{% block content %}
+    <div class="container" style="margin-top: 50px">
+        <h3 style="font-family: 'Times New Roman'; float:left;">Books borrowed</h3>
+        {% if user.is_superuser %}
+            <a href="{% url 'book_create' %}"><button type="button" class="btn btn-primary" style="float: right"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;Add Book</button></a>
+            <a href="{% url 'author_create' %}"><button type="button" class="btn btn-primary" style="float: right"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Add Author</button></a>
+            <br><br>
+        {% endif %}
+        {% if bookinstance_list %}
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" style="font-family: 'Times New Roman'">Book</th>
+                        <th scope="col" style="font-family: 'Times New Roman'">Due Back</th>
+                        <th scope="col" style="font-family: 'Times New Roman'">Renew</th>
+                        {% if perms.catalog.can_update_book %}
+                            <th scope="col" style="font-family: 'Times New Roman'">Update Book</th>
+                        {% endif %}
+                        {% if perms.catalog.can_delete_book %}
+                            <th scope="col" style="font-family: 'Times New Roman'">Delete Book</th>
+                        {% endif %}
+                        {% if perms.catalog.can_update_author %}
+                            <th scope="col" style="font-family: 'Times New Roman'">Update Author</th>
+                        {% endif %}
+                        {% if perms.catalog.can_delete_author %}
+                            <th scope="col" style="font-family: 'Times New Roman'">Delete Author</th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for bookinst in bookinstance_list %}
+                    <tr>
+                        <td style="font-family: 'Times New Roman'"><a href="{% url 'book-detail' bookinst.book.pk %}" >{{bookinst.book.title}}</a></td>
+                        {% if bookinst.is_overdue%}
+                            <td style="font-family: 'Times New Roman'; color: red;">{{ bookinst.due_back }}</td>
+                        {% else %}
+                            <td style="font-family: 'Times New Roman'">{{ bookinst.due_back }}</td>
+                        {% endif %}
+                        {% if perms.catalog.can_mark_returned %}
+                            <td style="font-family: 'Times New Roman'"><a href="{% url 'renew-book-librarian' bookinst.id %}"><span class="glyphicon glyphicon-repeat"></span></a></td>
+                        {% endif %}
+                        {% if perms.catalog.can_update_book %}
+                            <td style="font-family: 'Times New Roman'"><a href="{% url 'book_update' bookinst.book_id %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                        {% endif %}
+                        {% if perms.catalog.can_delete_book %}
+                            <td style="font-family: 'Times New Roman'"><a href="{% url 'book_delete' bookinst.book_id %}"><button class="btn btn-danger">Delete</button></a></td>
+                        {% endif %}
+                        {% if perms.catalog.can_update_author %}
+                            <td style="font-family: 'Times New Roman'"><a href="{% url 'author_update' bookinst.book.author.pk %}"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                        {% endif %}
+                        {% if perms.catalog.can_delete_author %}
+                            <td style="font-family: 'Times New Roman'"><a href="{% url 'author_delete' bookinst.book.author.pk %}"><button class="btn btn-danger">Delete</button></a></td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        {% else %}
+            <p style="font-family: 'Times New Roman';">There are no books borrowed.</p>
+        {% endif %}
+    </div>
+{% endblock %}

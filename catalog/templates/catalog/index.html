@@ -1,0 +1,21 @@
+{% extends "catalog/base_generic.html" %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'catalog/style.css' %}">
+    <div class="container" style="margin-top: 40px;">
+        <div class="d-flex justify-content-center"  style="background-color: transparent; height: 100px; position: relative; border: solid black;">
+            <h2 style="text-align: center; padding-top: auto; font-family: Superclarendon;">Welcome to Local Library</h2>
+        </div>
+        <div class="d-flex justify-content-center"  style="background-color: transparent; height: 250px;  ">
+            <h3 style="text-align: center; -webkit-text-fill-color: darkblue; font-family: Krungthep;">Our record count</h3>
+            <ul class="list-group">
+                <li class="list-group-item" style="background-color: transparent; text-align: center; -webkit-text-fill-color: maroon;"><strong><label style="font-size: x-large; word-spacing: 400px; font-family: Krungthep;">Books {{ num_books }}</label></strong></li>
+                <li class="list-group-item" style="background-color: transparent; text-align: center; -webkit-text-fill-color: maroon;"><strong><label style="font-size: x-large; word-spacing: 400px; font-family: Krungthep;">Copies {{ num_instances }}</label></strong> </li>
+                <li class="list-group-item" style="background-color: transparent; text-align: center; -webkit-text-fill-color: maroon;"><strong><label style="font-size: x-large; word-spacing: 400px; font-family: Krungthep;">Authors {{ num_authors }}</label></strong></li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-center"  style="background-color: transparent; height: 100px; position: relative; border-top: solid black;" >
+            <h3 style="-webkit-text-fill-color: black; text-align: center; font-family: 'Arial Rounded MT Bold'">PAGE HITS &nbsp; &nbsp; {{ num_visits }}</h3>
+        </div>
+    </div>
+{% endblock %}

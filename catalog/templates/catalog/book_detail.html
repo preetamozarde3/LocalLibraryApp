@@ -1,0 +1,88 @@
+{% extends "catalog/base_generic.html" %}
+
+{% block content %}
+    <div class="container" style="margin-top: 50px">
+        {% if user.is_staff %}
+        <div class="row">
+            <div class="col-sm-8">
+                <label style="font-family: 'Times New Roman'">Book Title: {{ book.title }}</label>
+                <p><strong style="font-family: 'Times New Roman'">Author:</strong> <a href="{% url 'author-detail' book.author.pk %}">{{ book.author }}</a></p>
+                <p><strong style="font-family: 'Times New Roman'">Summary:</strong> <label style="font-family: 'Times New Roman'">{{ book.summary }}</label></p>
+                <p><strong style="font-family: 'Times New Roman'">ISBN:</strong> {{ book.isbn }}</p>
+                <p><strong style="font-family: 'Times New Roman'">Genre:</strong>
+                    {% for genre in book.genre.all %}
+                        {{ genre }}
+                        {% if not forloop.last %},
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="{{ book.picture.url }}" height="300px">
+            </div>
+        </div>
+
+        <div style="margin-left:10px;margin-top:10px">
+            <strong><h4 style="font-family: 'Times New Roman'">Copies</h4></strong>
+
+            {% for copy in book.bookinstance_set.all %}
+                <hr>
+                <p class="{% if copy.status == 'a' %}text-success{% elif copy.status == 'm' %}text-danger{% else %}text-warning{% endif %}">{{ copy.get_status_display }}</p>
+                {% if copy.status != 'a' %}
+                    <p><strong>Due to be returned:</strong> {{copy.due_back}}</p>
+                {% endif %}
+                <p class="text-muted"><strong>Id:</strong> {{copy.id}}</p>
+            {% endfor %}
+        </div>
+
+        {% else %}
+
+        <div class="row">
+            <div class="col-sm-8">
+                <label style="font-family: 'Times New Roman'">Book Title: {{ book.title }}</label>
+                <p><strong style="font-family: 'Times New Roman'">Author:</strong> <a href="{% url 'author-detail' book.author.pk %}">{{ book.author }}</a></p>
+                <p><strong style="font-family: 'Times New Roman'">Summary:</strong> <label style="font-family: 'Times New Roman'">{{ book.summary }}</label></p>
+                <p><strong style="font-family: 'Times New Roman'">ISBN:</strong> {{ book.isbn }}</p>
+                <p><strong style="font-family: 'Times New Roman'">Genre:</strong>
+                    {% for genre in book.genre.all %}
+                        {{ genre }}
+                        {% if not forloop.last %},
+                        {% endif %}
+                    {% endfor %}
+                </p>
+                <p>
+                    <strong style="font-family: 'Times New Roman'">Download</strong>&nbsp;<a href="{{ book.file.url }}"><span class="glyphicon glyphicon-download-alt"></span></a>&nbsp;&nbsp;
+                    <form method="POST" action ="{% url 'email_book' %}" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" name="book_id" value="{{ book.id }}">
+                        <strong style="font-family: 'Times New Roman'">Send me a copy</strong>&nbsp;<button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Email</button><br><br>
+                    </form>
+                    {% for copy in book.bookinstance_set.all %}
+                        {% if copy.status == 'a' %}
+                            <form method="POST" action ="{% url 'borrow_book' copy.id %}" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Borrow the book</button>
+                            </form>
+{#                        {% else %}#}
+{#                            <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Book unavailable</button>#}
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="{{ book.picture.url }}" height="300px">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+{% comment %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}{% endcomment %}
+
+{% endblock %}

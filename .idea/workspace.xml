@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1345f70a-ab6b-4127-a5d4-30eeac80d3ea" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_GenreModelTest.coverage" NAME="Test: catalog.tests.GenreModelTest Coverage Results" MODIFIED="1545298268443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_LoanedBookInstancesByUserListViewTest_test_logged_in_uses_correct_template.coverage" NAME="Test: catalog.tests.LoanedBookInstancesByUserListViewTest.test_logged_in_uses_correct_template Coverage Results" MODIFIED="1545313734946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookSearchListViewTest_test__url_pattern.coverage" NAME="Test: catalog.tests.BookSearchListViewTest.test__url_pattern Coverage Results" MODIFIED="1545388821407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookModelTest_test_title_label.coverage" NAME="Test: catalog.tests.BookModelTest.test_title_label Coverage Results" MODIFIED="1545289252711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_uses_correct_template.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_uses_correct_template Coverage Results" MODIFIED="1545359470775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_LoanedBookInstancesByUserListViewTest_test_only_borrowed_books_in_list.coverage" NAME="Test: catalog.tests.LoanedBookInstancesByUserListViewTest.test_only_borrowed_books_in_list Coverage Results" MODIFIED="1545327678359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_lists_all_authors.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_lists_all_authors Coverage Results" MODIFIED="1545125676176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookModelTest.coverage" NAME="Test: catalog.tests.BookModelTest Coverage Results" MODIFIED="1545289384863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest Coverage Results" MODIFIED="1545329499575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success.coverage" NAME="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success Coverage Results" MODIFIED="1545631113050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog.coverage" NAME="Test: catalog Coverage Results" MODIFIED="1545050757861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookCreateViewTest.coverage" NAME="Test: catalog.tests.BookCreateViewTest Coverage Results" MODIFIED="1545360544128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookFormTest.coverage" NAME="Test: catalog.tests.RenewBookFormTest Coverage Results" MODIFIED="1545124066403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_view_redirect_if_user_not_logged_in.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_view_redirect_if_user_not_logged_in Coverage Results" MODIFIED="1545286084565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest_test_redirect_if_not_logged_in.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest.test_redirect_if_not_logged_in Coverage Results" MODIFIED="1545328986610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_redirects_to_detail_view_on_success.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_redirects_to_detail_view_on_success Coverage Results" MODIFIED="1545359213842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookFormTest_test_renew_form_date_in_past.coverage" NAME="Test: catalog.tests.RenewBookFormTest.test_renew_form_date_in_past Coverage Results" MODIFIED="1545124408312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_LoanedBookInstancesByUserListViewTest_test_pages_ordered_by_due_date.coverage" NAME="Test: catalog.tests.LoanedBookInstancesByUserListViewTest.test_pages_ordered_by_due_date Coverage Results" MODIFIED="1545327707293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookFormTest_test_renew_form_date_field_label.coverage" NAME="Test: catalog.tests.RenewBookFormTest.test_renew_form_date_field_label Coverage Results" MODIFIED="1545124385330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookSearchListViewTest_test_redirect_if_not_logged_in.coverage" NAME="Test: catalog.tests.BookSearchListViewTest.test_redirect_if_not_logged_in Coverage Results" MODIFIED="1545368254792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookInstanceModelTest.coverage" NAME="Test: catalog.tests.BookInstanceModelTest Coverage Results" MODIFIED="1545312788872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_CustomerLoginTestCase.coverage" NAME="Test: catalog.tests.CustomerLoginTestCase Coverage Results" MODIFIED="1545630014679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_CustomerLogoutTestCase.coverage" NAME="Test: catalog.tests.CustomerLogoutTestCase Coverage Results" MODIFIED="1545630270500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1544786969323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_CustomerSignUpViewTest_test_registration_view_post_success.coverage" NAME="Test: catalog.tests.CustomerSignUpViewTest.test_registration_view_post_success Coverage Results" MODIFIED="1545627016861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_LoanedBookInstancesByUserListViewTest.coverage" NAME="Test: catalog.tests.LoanedBookInstancesByUserListViewTest Coverage Results" MODIFIED="1545313722588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_testmodels_AuthorModelTest.coverage" NAME="Test: catalog.tests.testmodels.AuthorModelTest Coverage Results" MODIFIED="1545050647737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_LoanedBookInstancesByUserListViewTest_test_redirect_if_not_logged_in.coverage" NAME="Test: catalog.tests.LoanedBookInstancesByUserListViewTest.test_redirect_if_not_logged_in Coverage Results" MODIFIED="1545315058844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_ProfileModelTest.coverage" NAME="Test: catalog.tests.ProfileModelTest Coverage Results" MODIFIED="1545292769625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_logged_in_uses_correct_template.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_logged_in_uses_correct_template Coverage Results" MODIFIED="1545314751670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest_test_redirects_to_all_borrowed_book_list_on_success.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest.test_redirects_to_all_borrowed_book_list_on_success Coverage Results" MODIFIED="1545329473294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest_test_form_invalid_renewal_date_future.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest.test_form_invalid_renewal_date_future Coverage Results" MODIFIED="1545329264463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_view_url_exists_at_desired_location.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_view_url_exists_at_desired_location Coverage Results" MODIFIED="1545127426718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookSearchListViewTest.coverage" NAME="Test: catalog.tests.BookSearchListViewTest Coverage Results" MODIFIED="1545384216800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookFormTest_test_renew_form_date_field_help_text.coverage" NAME="Test: catalog.tests.RenewBookFormTest.test_renew_form_date_field_help_text Coverage Results" MODIFIED="1545124390687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest_test_form_renewal_date_initially_has_date_three_weeks_in_future.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest.test_form_renewal_date_initially_has_date_three_weeks_in_future Coverage Results" MODIFIED="1545329131665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_redirect_if_not_logged_in.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_redirect_if_not_logged_in Coverage Results" MODIFIED="1545359043725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookModelTest_test_get_absolute_url.coverage" NAME="Test: catalog.tests.BookModelTest.test_get_absolute_url Coverage Results" MODIFIED="1545289685059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookCreateViewTest_test_redirects_to_book_list_on_success.coverage" NAME="Test: catalog.tests.BookCreateViewTest.test_redirects_to_book_list_on_success Coverage Results" MODIFIED="1545360491459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_logged_in_with_permission.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_logged_in_with_permission Coverage Results" MODIFIED="1545359132409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest_test_redirect_if_logged_in_but_not_correct_permission.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest.test_redirect_if_logged_in_but_not_correct_permission Coverage Results" MODIFIED="1545328840476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookModelTest_test_author_label.coverage" NAME="Test: catalog.tests.BookModelTest.test_author_label Coverage Results" MODIFIED="1545289261327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_pagination_is_three.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_pagination_is_three Coverage Results" MODIFIED="1545328166283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest.coverage" NAME="Test: catalog.tests.AuthorListViewTest Coverage Results" MODIFIED="1545327398058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_testmodels.coverage" NAME="Test: catalog.tests.testmodels Coverage Results" MODIFIED="1545050802324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookModelTest_test_object_name_is_title.coverage" NAME="Test: catalog.tests.BookModelTest.test_object_name_is_title Coverage Results" MODIFIED="1545289681027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_CustomerLoginTestCase_test_login_view_get.coverage" NAME="Test: catalog.tests.CustomerLoginTestCase.test_login_view_get Coverage Results" MODIFIED="1545627408771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookInstanceModelTest_test_object_name_is_id_and_book_title.coverage" NAME="Test: catalog.tests.BookInstanceModelTest.test_object_name_is_id_and_book_title Coverage Results" MODIFIED="1545294458046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookInstanceModelTest_test_book_is_overdue.coverage" NAME="Test: catalog.tests.BookInstanceModelTest.test_book_is_overdue Coverage Results" MODIFIED="1545301967744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_RenewBookInstancesViewTest_test_form_invalid_renewal_date_past.coverage" NAME="Test: catalog.tests.RenewBookInstancesViewTest.test_form_invalid_renewal_date_past Coverage Results" MODIFIED="1545329353485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_redirects_to_dashboard_view_on_success.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_redirects_to_dashboard_view_on_success Coverage Results" MODIFIED="1545359613496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_redirect_if_logged_in_but_not_correct_permission.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_redirect_if_logged_in_but_not_correct_permission Coverage Results" MODIFIED="1545359061539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_CustomerSignUpViewTest.coverage" NAME="Test: catalog.tests.CustomerSignUpViewTest Coverage Results" MODIFIED="1545627147721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_view_url_accessible_by_name.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_view_url_accessible_by_name Coverage Results" MODIFIED="1545127449853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorListViewTest_test_view_uses_correct_template.coverage" NAME="Test: catalog.tests.AuthorListViewTest.test_view_uses_correct_template Coverage Results" MODIFIED="1545287583741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_testmodels_AuthorModelTest_test_first_name_label.coverage" NAME="Test: catalog.tests.testmodels.AuthorModelTest.test_first_name_label Coverage Results" MODIFIED="1544792014279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookModelTest_test_genre_label.coverage" NAME="Test: catalog.tests.BookModelTest.test_genre_label Coverage Results" MODIFIED="1545289458389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_ProfileModelTest_test_object_name_is_first_name_comma_last_name.coverage" NAME="Test: catalog.tests.ProfileModelTest.test_object_name_is_first_name_comma_last_name Coverage Results" MODIFIED="1545292699201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_AuthorCreateViewTest_test_redirects_to_author_list_on_success.coverage" NAME="Test: catalog.tests.AuthorCreateViewTest.test_redirects_to_author_list_on_success Coverage Results" MODIFIED="1545359856730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Library$Test__catalog_tests_BookSearchListViewTest_test_query_search_filter.coverage" NAME="Test: catalog.tests.BookSearchListViewTest.test_query_search_filter Coverage Results" MODIFIED="1545387889009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="380" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1557243974">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="68" />
+          <entry key="project.open.time.0" value="20" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.3" value="9" />
+          <entry key="project.open.time.4" value="23" />
+          <entry key="project.open.time.5" value="12" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="69" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="py" value="1074" />
+          <entry key="py@Library" value="233" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="110" />
+          <entry key="CommandLine" value="2437" />
+          <entry key="HTML" value="8822" />
+          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="Python" value="23227" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="2" />
+          <entry key="py" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="211" />
+          <entry key="Image" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="224" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="151" column="65" lean-forward="true" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Setup Script" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>on_loan</find>
+      <find>template_name</find>
+      <find>paginat</find>
+      <find>book_id</find>
+      <find>data=</find>
+      <find>assertQuerysetEqual</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/index.html" />
+        <option value="$PROJECT_DIR$/catalog/static/catalog/style.css" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/author_detail.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/customer_login.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/dashboard.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/dashboard_admin.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/dashboard_library_staff.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/base_generic.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/author_list.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/book_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/author_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/author_form.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/book_form.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/book_renew_librarian.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/book_detail.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/dashboard_customer.html" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/book_list.html" />
+        <option value="$PROJECT_DIR$/catalog/.coveragerc" />
+        <option value="$PROJECT_DIR$/catalog/admin.py" />
+        <option value="$PROJECT_DIR$/catalog/tests/testmodels.py" />
+        <option value="$PROJECT_DIR$/catalog/forms.py" />
+        <option value="$PROJECT_DIR$/Library/urls.py" />
+        <option value="$PROJECT_DIR$/Library/settings.py" />
+        <option value="$PROJECT_DIR$/.coveragerc" />
+        <option value="$PROJECT_DIR$/catalog/models.py" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/customer_signup.html" />
+        <option value="$PROJECT_DIR$/catalog/tests.py" />
+        <option value="$PROJECT_DIR$/catalog/urls.py" />
+        <option value="$PROJECT_DIR$/catalog/templates/catalog/dashboard_staff.html" />
+        <option value="$PROJECT_DIR$/catalog/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.leinardi.pycharm.pylint.PylintConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/media/book_images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/author_images" />
+      <recent name="$PROJECT_DIR$/media/book_pdf" />
+      <recent name="$PROJECT_DIR$/catalog/static/catalog/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success">
+    <configuration name="Test: catalog.tests.CustomerLoginTestCase" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="catalog.tests.CustomerLoginTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_get" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="catalog.tests.CustomerLoginTestCase.test_login_view_get" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="catalog.tests.CustomerLoginTestCase.test_login_view_post_success" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: catalog.tests.CustomerLogoutTestCase" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="catalog.tests.CustomerLogoutTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: catalog.tests.CustomerSignUpViewTest" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="catalog.tests.CustomerSignUpViewTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Library" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Library.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.Library" />
+      <item itemvalue="Django tests.Test: catalog.tests.CustomerSignUpViewTest" />
+      <item itemvalue="Django tests.Test: catalog.tests.CustomerLoginTestCase" />
+      <item itemvalue="Django tests.Test: catalog.tests.CustomerLoginTestCase.test_login_view_get" />
+      <item itemvalue="Django tests.Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" />
+      <item itemvalue="Django tests.Test: catalog.tests.CustomerLogoutTestCase" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" />
+        <item itemvalue="Django tests.Test: catalog.tests.CustomerLogoutTestCase" />
+        <item itemvalue="Django tests.Test: catalog.tests.CustomerLoginTestCase" />
+        <item itemvalue="Django tests.Test: catalog.tests.CustomerLoginTestCase.test_login_view_get" />
+        <item itemvalue="Django tests.Test: catalog.tests.CustomerSignUpViewTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1345f70a-ab6b-4127-a5d4-30eeac80d3ea" name="Default Changelist" comment="" />
+      <created>1543994117354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543994117354</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 21m 05s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 21m 21s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 22m 14s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 22m 46s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 23m 43s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 24m 00s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 26m 56s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 27m 16s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 28m 28s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__catalog_tests_CustomerLoginTestCase_test_login_view_post_success - 2018.12.24 at 11h 28m 41s.xml">
+      <configuration name="Test: catalog.tests.CustomerLoginTestCase.test_login_view_post_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.40240964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003605" side_tool="true" weight="0.41253644" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.49518073" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="manage.py@Library" order="13" weight="0.3060241" />
+      <window_info anchor="bottom" id="Pylint" order="14" sideWeight="0.49888143" weight="0.32771084" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="811" y="23" width="458" height="778" id="Coverage" order="5" side_tool="true" type="FLOATING" weight="0.32761088" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32944608" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32944608" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="manage.py@Library" order="13" visible="true" weight="0.32507288" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/apps/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/generic/detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="163" column="6" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/author_images/2018/12/07/williamshakespeare.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/author_images/2018/12/07/stellagibbons.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/author_images/2018/12/07/marcelproust.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/author_images/2018/12/07/johnktoole.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/author_images/2018/12/07/jamesjoyce.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/static/catalog/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/messages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/dashboard_admin.html" />
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/book_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.coverage">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/tests/testmodels.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="401" selection-start-line="401" selection-end-line="401" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/global_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.coveragerc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/test/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/book_renew_librarian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlcov/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/test/testcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="317" selection-start-line="317" selection-end-line="317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/auth/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/base_generic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="104" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/book_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/dashboard_customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/author_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/author_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/generic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/dashboard_staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/book_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/book_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="82" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/author_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/author_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/customer_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/customer_signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="151" column="65" lean-forward="true" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
