@@ -50,7 +50,7 @@ django-notifications-hq==1.5.0
 django-phone-field==1.6.0
 django-phonenumber-field==2.1.0
 django-rest-swagger==2.2.0
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 dnspython==1.15.0
 docutils==0.14
 docx2txt==0.6
