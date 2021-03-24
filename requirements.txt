@@ -146,7 +146,7 @@ queuelib==1.5.0
 requests==2.21.0
 requests-oauthlib==1.0.0
 requests-toolbelt==0.8.0
-rsa==4.0
+rsa==4.1
 s3transfer==0.1.13
 scikit-learn==0.20.1
 scipy==1.1.0
