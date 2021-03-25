@@ -141,7 +141,7 @@ python-mimeparse==1.6.0
 python-pptx==0.6.5
 pytz==2018.4
 pywebpush==1.7.0
-PyYAML==5.1
+PyYAML==5.4
 queuelib==1.5.0
 requests==2.21.0
 requests-oauthlib==1.0.0
