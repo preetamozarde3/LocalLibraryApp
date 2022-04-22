@@ -135,7 +135,7 @@ pylint-plugin-utils==0.4
 pylint-runner==0.5.4
 pymongo==3.7.0
 pyOpenSSL==18.0.0
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 python-dateutil==2.7.3
 python-mimeparse==1.6.0
 python-pptx==0.6.5
